@@ -100,7 +100,7 @@ variable "sle11sp4_minion_configuration" {
   }
 }
 
-variable "sle11sp4_minion_configuration" {
+variable "sle11sp4_sshminion_configuration" {
   description = "use ${module.<SLE11SP4_MINION>.configuration}, see main.tf.libvirt-testsuite.example"
   type = "map"
   default = {
